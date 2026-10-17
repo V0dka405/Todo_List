@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+build/
+dist/
+dist-ssr/
+**/build/
+**/dist/
+**/dist-ssr/
+
+# Environment files
+.env
+.env.*
+*.local
+!.env.example
+!**/.env.example
+
+# Logs and runtime data
+*.log
+logs/
+tmp/
+**/tmp/
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System / Temporary binaries
+cloudflared.exe
+todo_pgdata/
